@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Accessibility focus styles */
+*:focus {
+  @apply outline-none ring-2 ring-primary ring-offset-2;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
